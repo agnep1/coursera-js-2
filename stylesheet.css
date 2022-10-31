@@ -1,0 +1,13 @@
+body {font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;}
+h1 {text-align: center;font-size: 175%;}
+.meet-label {font-size: 125%; text-align: center; 
+    font-weight: bold;
+    width: 30%; float: right;
+    border: 1px black solid;}
+.chiken {background-color: lightcoral;}
+.beef {background-color: brown; color: white;}
+.sushi {background-color: burlywood;}
+
+.dish {background-color: darkgray;}
+p {clear: right; padding: 5px;}
