@@ -1,23 +1,50 @@
-body {font-family: 'Courier New', Courier, monospace;
-    box-sizing: border-box;}
-h1 {text-align: center;font-size: 175%; margin-bottom: 30px;}
-.meet-label {font-size: 125%; text-align: center; 
-    font-weight: bold;
-    width: 30%; float: right;
-    border: 1px black solid;}
-.chicken {background-color: lightcoral;}
-.beef {background-color: brown; color: white;}
-.sushi {background-color: burlywood;}
-
-.dish {background-color: darkgray; 
-    border: 1px black solid; margin: 20px 10px;
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
 }
-
-p {clear: right; padding: 5px; margin: 0px;}
-
-@media (min-width: 992px)
-    {.col-lg-4{float: left; width: 33%;}}
-@media (min-width: 768px) and (max-width: 991px)
-    {.col-md-6{float: left;width: 50%;}
-    .col-md-12{clear: both;}}
+h1 {
+    text-align: center;
+    font-size: 175%; 
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.meet-label {
+    font-size: 125%; 
+    text-align: center; 
+    font-weight: bold;
+    padding: 3px;
+    width: 30%; 
+    border: 1px black solid;
+    float: right;
+    position: relative;
+    top: -1px;
+    right: -1px;
+}
+.chicken {
+    background-color: lightcoral;
+}
+.beef {
+    background-color: brown; 
+    color: white;
+}
+.sushi {
+    background-color: burlywood;
+}
+.dish {background-color: darkgray; 
+    border: 1px black solid; 
+    margin: 20px 10px;
+    position: relative;
+}
+p {
+    clear: right; 
+    padding: 5px;
+}
+@media (min-width: 992px){
+    .col-lg-4{float: left; width: 33%;}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{float: left; width: 50%;}
+    .col-md-12{clear: both;}
+}
 
